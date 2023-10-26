@@ -1,0 +1,305 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download App</title>
+    <style>
+        /* Basic styling for the section */
+        .download-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 5px; /* Adjusted the padding to reduce the gap */
+        }
+        
+        /* Left side content */
+        .left-content {
+            flex: 1;
+            padding-right: 10px;
+        }
+        
+        /* Right side content */
+        .right-content {
+            text-align: right;
+        }
+
+        /* Style for the language link */
+        .language-link {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px; /* Adjusted the margin to reduce the gap */
+        }
+
+        /* Style for the sign-up and sign-in links */
+        .sign-links {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 10px; /* Adjusted the margin to reduce the gap */
+            font-weight: bold;
+        }
+        .drop-down {
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+        }
+        .drop-down ul {
+            list-style: none;
+            display: flex;
+        }
+        .drop-down ul li {
+            padding: 30px 30px;
+            position: relative;
+        }
+        .drop-down ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            transition: all 0.3s;
+        }
+        .drop-down ul li a:hover {
+            color: grey;
+        }
+        .option {
+            display: none;
+        }
+        .drop-down ul li:hover .option {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: #0073e6;
+        }
+        .option ul {
+            display: block;
+            margin: 10px;
+        }
+        .option ul li {
+            width: 110px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="download-section">
+        <div class="left-content">
+            <h2>Download App via SMS</h2>
+        </div>
+        <div class="right-content">
+            <a class="language-link" href="#">اردو</a>
+            <a class="sign-links" href="#">Sign Up</a>
+            <a class="sign-links" href="#">Sign In</a>
+        </div>
+        <div class="drop-down">
+            <ul>
+           <li> <a href="">Home</a></li>
+            <li><a href="">Away</a></li>
+            <li><a href="">Away</a></li>
+            <li>
+                <a href="#">Our work</a>
+                <div class="option">
+                    <ul>
+                        <li><a href="#">super market</a></li>
+                        <li><a href="#">super market</a></li>
+                        <li><a href="#">super market</a></li>
+                        <li><a href="#">super market</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Away</a></li>
+            <li><a href="">Away</a></li>
+        </ul>
+        </div>
+    </section>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakWheels Pakistan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.search h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Featured cars styles */
+.featured-cars h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="PakWheels Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Bikes</a></li>
+                <li><a href="#">Auto Parts</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search">
+            <h1>Find the Perfect Vehicle</h1>
+            <form>
+                <input type="text" placeholder="Search for cars, bikes, or auto parts">
+                <button>Search</button>
+            </form>
+        </section>
+
+        <section class="featured-cars">
+            <h2>Featured Cars</h2>
+            <!-- Featured car listings go here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-menu">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  width: 100%;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: block;
+  padding: 5px;
+}
+nav ul li a {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: white;
+  font-size: 1.2em;
+}
+nav ul li a:hover {
+  color: 0;
+}/*# sourceMappingURL=styles.css.map */

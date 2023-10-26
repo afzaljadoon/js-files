@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <style>
+        input[type="text"]{
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            width: 100%;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type="SUBMIT"]{
+           border-radius: 10px;
+           margin: 10px;
+           padding: 5px;
+           width: 100%;
+           background-color: slateblue;
+        }
+        .same{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+         .special,select{
+             width: 100%;
+             border-radius: 10px;
+             margin: 10px;
+             padding: 5px;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+         input[type="SUBMIT"]:hover{
+             background-color: black;
+             border-radius: 10px;
+             cursor: pointer;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         }
+        h2{
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+       h1{
+           text-align: center;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       ol{
+           list-style-type:upper-roman;
+       }
+       ul{
+           list-style-type:disc;
+       }
+       ol,ul{
+           list-style-position:inside;
+           margin-left: auto;
+           margin-right: auto;
+           text-align: center;
+       }
+       table,tr,td{
+          
+       
+           padding: 5px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: large;
+           border-color: blue;
+       }
+       table{
+           margin-left: auto;
+           margin-right: auto;
+           
+           display: table;
+           
+       }
+    </style>
+</head>
+<body>
+    <h1>HTML FULL COURSE</h1>
+    <h2>LISTS</h2>
+    <ol>
+        <li>Burger</li>
+        <li>Pizza</li>
+        <li>Cake</li>
+        <li>Fruit
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+                <li>Pin-Apple</li>
+            </ul>
+        </li>
+        <li>Dry Fruit</li>
+    </ol>
+    <h2>STUDENT TABLE</h2>
+    <table border="5" width="50%">
+        <tr>
+            <td>
+            NAME
+        </td>
+        <td>
+            ROLL NO.
+        </td>
+        <td>
+            FATHER NAME
+        </td>
+        <td>SUBJECT</td>
+        <td>
+            MARKS
+        </td>
+        
+    </tr>
+    <tr>
+        <td>MUNEER RAHMAN</td>
+        <td>12</td>
+        <td>MUJEEB RAHMAN</td>
+        <td>ENGLISH</td>
+        <td>85</td>
+
+    </tr>
+    <tr>
+        <td>SHAHAB RAHMAN</td>
+        <td>05</td>
+        <td>NOOR RAHMAN</td>
+        <td>ENGLISH</td>
+        <td>82</td>
+
+    </tr>
+    <tr>
+        <td>NASIR JADOON</td>
+        <td>17</td>
+        <td>ZAHEER UDDIN</td>
+        <td>ENGLISH</td>
+        <td>89</td>
+
+    </tr>
+    <tr>
+        <td>AQIB AHMAD</td>
+        <td>10</td>
+        <td>MUMTAZ</td>
+        <td>ENGLISH</td>
+        <td>88</td>
+
+    </tr>
+    <tr>
+        <td>HAMMAD KHAN</td>
+        <td>07</td>
+        <td>LUQMAN</td>
+        <td>ENGLISH</td>
+        <td>87</td>
+
+    </tr>
+    <tr>
+        <td>AQEEL JADOON</td>
+        <td>95</td>
+        <td>ABDUR RAHMAN</td>
+        <td>ENGLISH</td>
+        <td>81</td>
+    </tr>
+    <tr>
+        <td>ATIF RAHEEM</td>
+        <td>11</td>
+        <td>ASGHAR RAHEEM</td>
+        <td>ENGLISH</td>
+        <td>81</td>
+
+    </tr>
+    <tr>
+        <td>JAWAD KHAN</td>
+        <td>47</td>
+        <td>QADEEM SHAH</td>
+        <td>ENGLISH</td>
+        <td>84</td>
+
+    </tr>
+    <tr>
+        <td>ATIQ</td>
+        <td>150</td>
+        <td>NOOR UL AMIN</td>
+        <td>ENGLISH</td>
+        <td>80</td>
+
+    </tr>
+    </table>
+    <h2>STUDENT FORM</h2>
+    <form action="#">
+        <label class="same" for="">FIRST NAME</label>
+        <input type="text">
+        
+        <label class="same" for="">LAST NAME</label>
+        <input type="text">
+         
+      
+        <label class="special" for="">COUNTRY</label>
+        
+       <select>
+           <option value="123">PAKISTAN</option>
+           <option value="123">AUSTRILIA</option>
+           <option value="123">ENGLAND</option>
+           <option value="123">NEWZEALAND</option>
+       </select>
+        <input type="SUBMIT" value="SUBMIT">
+    </form>
+</body>
+</html>

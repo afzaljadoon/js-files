@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADOON GYM</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body{
+            font-size: small;
+            font-family: "Sofia", sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 1px 20px;
+            background-image: url('img/GYM2.JPG');
+            background-repeat: no-repeat;
+            background-size: 100%;
+                }
+        .Left{      
+            border: 5% solid green;
+
+        }
+        .Left img{
+            width: 130px;
+            filter: invert(100%);
+        } 
+        .Left div{
+            text-align:justify;
+        } 
+        .Mid{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 5% solid darkviolet;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            width: 50%;
+            margin-top: -120px;
+           
+        } 
+          
+        .navbar{
+            display: inline-block;
+        }   
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 23px 15px;
+        }
+        .navbar li a:hover{
+            color: grey;
+            text-decoration: underline;    
+        }
+        .Right{
+            position: absolute;
+            right: 20px;
+            
+          margin: 29px auto;
+          margin-top: -60px;
+        }
+        .btn{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display:inline-block;
+           margin-top: -120px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: gray;
+        }
+        .container
+        {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container h1{
+           font-size: x-large;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 1px 1px;
+            margin: 20px 2px;
+        }
+        .container button{
+        
+            display: block;
+            width: 508px;
+            margin: 2px 1px;
+            
+        }
+    </style>
+</head>
+<body>
+  
+   <header class="header">
+
+    <div class="Left">
+    <img src="img/GYM LOGO.JPG" alt="">
+    <div>JADOON FITNESS</div>
+</div>
+
+    <div class="Mid">
+        <div class="card">
+        <h5 id="task-title">Task List</h5>
+        <a href="#" class="secondary">
+            <i class="Root secondary"></i>
+        </a>
+    </div>
+        <ul class="navbar">
+            <li><a class="Hm" href="#">Home</a></li>
+        <li><a class="Hm" href="#">About Us</a></li>
+        <li><a class="Hm" href="#">Fitness Calculater</a></li>
+        <li><a class="Hm" href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="Right">
+        <div class="white">
+        <p  class="red">
+        <button class="btn" name="Call">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </p>
+    </div>
+    </div>
+    <div class="container">
+        <h1>Join the best GYM of Gadoon now</h1>
+        <form action="index.php">
+            <div class="form-group">
+                <input type="text" id="task" for="task" name="task" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script src="creatingelement.js"></script>
+</body>
+</html>

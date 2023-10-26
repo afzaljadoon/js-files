@@ -1,0 +1,120 @@
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            line-height: 1.4287;
+            color: #434343;
+            background-color: #f2f3f3;
+            font-weight: 400; 
+            display: block;
+            /* margin: 8px;  */
+        } 
+
+    .container {
+        color: white;
+        overflow: hidden;
+    }
+        .search-classified-bg {
+            background: url(https://wsa2.pakwheels.com/assets/home-banner-bg-0cf394b….jpg) no-repeat center center;
+            background: url(https://wsa3.pakwheels.com/assets/MainBanner-6cb14f4….png) no-repeat center center;
+            background-size: cover;
+            height: 510px;
+            margin-top: -100px;
+            padding-top: 100px;
+        }
+
+        .section {
+            padding: 40px 0;
+            color: white;
+            overflow: hidden;
+            background-image: url(https://cache1.pakwheels.com/system/super_boards/background_images/000/000/008/original/8.jpg?1649133660);
+        }
+       
+    .r-d a{
+        text-decoration: none !important;
+        color: white !important;
+        padding-left: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+
+    .l-d a {
+        color: white !important;
+        text-decoration: none;    
+    }
+
+    ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding from the ul */
+    text-decoration: none;
+    margin-right: 250px;
+    }
+
+    li {
+    display: inline; /* Display list items inline */
+    margin-right: 15px; /* Add some margin between the list items */
+    }
+    
+    .r-d {
+        float: left;
+      }
+      
+      .l-d {
+        float: right;
+      }
+      /* Dropdown content */
+      .dropdown-content {
+         align-items: center;
+      }
+      /* First Menu-Bar */
+      .dropdown {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+    .dropdown ul {
+        list-style: none;
+        display: flex;
+    }
+    .dropdown ul li {
+        padding: 30px 30px;
+        position: relative;
+    }
+    .dropdown ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: all 0.3s;
+
+    }
+    .dropdown ul li a:hover {
+        color: grey;
+    }
+    /* Dropdown options */
+    .option {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+    .dropdown ul li:hover .option {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: #0073e6;
+    }
+    .option ul {
+        display: block;
+        margin: 10px;
+    }
+    .option ul li {
+        width: 70px;
+        padding-left: 100px;
+    }
+
+      

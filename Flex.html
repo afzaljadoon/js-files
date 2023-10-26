@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="BOOTSTRAPE/bootstrap-4.0.0-dist/css/bootstrap.css">
+</head>
+<style>
+    
+</style>
+<body>
+     <!-- <div id="div1">THIS IS SHAHAB RAHMAN</div>
+    <button id="btn1" onclick="Clicked();">Click me</button>  -->
+    <label for="">1st Number</label>
+    <br>
+    <input type="text" id="txt1">
+    <br>
+
+    <label for="">2nd Number</label>
+    <br>
+    <input type="text" id="txt2">
+    <br>
+    <br>
+    <button id="btn2" onclick="Ahmad();">Add</button>
+    <br>
+    <br>
+    <input type="text" name="" id="Result">
+    <br>
+    <br>
+
+    <br>
+    <br>   
+    <br>
+
+    <button id="btn_red">Red</button>
+    <button id="btn_green">Green</button>
+    <button id="btn_blue">Blue</button>
+        <br>
+        <br>
+        <div>
+            <p id="text_color">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora in magni inventore alias perspiciatis eos vero asperiores optio, eligendi animi rerum. Laboriosam harum iusto perferendis culpa voluptas quibusdam officia.
+            </p>
+        </div>
+
+        <input type="text" name="" id="num" placeholder="Enter A Number">
+        <button id="btn_1" type="button" onclick="Multiplication();">2</button>
+        <br> <br> <br>
+
+        <input type="password" name="" id="pass">
+        <button onclick="Showpassword();">Show</button>
+
+        <br> <br> <br>
+
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <input type="text" id="result">
+        <button onclick="mul();">Square</button>
+</body>
+</html>
+<script type="text/Javascript">
+    function Ahmad(){
+      var val1 = Number(document.getElementById("txt1").value);
+      var val2 = Number(document.getElementById("txt2").value);
+      var val3=val1+val2;
+      document.getElementById("Result").value = val3;
+
+    }
+ function Clicked() {
+     var divone = document.getElementById("div1");
+     divone.innerHTML = "THIS IS MUNEER RAHMAN";
+
+     document.getElementById("btn1").innerHTML = "Clicked!";
+ }
+// red
+ document.getElementById("btn_red").onclick = function () {
+   document.getElementById("text_color").style.color = 'red';  
+ }
+//  green
+ document.getElementById("btn_green").onclick = function () {
+   document.getElementById("text_color").style.color = 'green';  
+ }
+//  blue
+ document.getElementById("btn_blue").onclick = function () {
+   document.getElementById("text_color").style.color = 'blue';  
+ }
+ function Multiplication() {
+  var num;
+  num=Number(document.getElementById("num").value);
+  num=num*2;
+  document.getElementById("num").value = num;
+ }
+ function Showpassword() {
+     var num1 = document.getElementById("pass").type = ('text');
+ }
+ function mul() {
+    var num1=document.getElementById("num1").value;
+    var num2=document.getElementById("num2").value;
+    var num4=num1*num2;
+    
+    document.getElementById("result").value=num4;
+ }
+</script>
